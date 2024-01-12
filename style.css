@@ -10,27 +10,68 @@ body, html {
   margin: auto;
 }
 
-/* Header */
+/* Header Styles */
 .header {
-  /* Styles for the header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff; /* Replace with actual color or image based on the design */
+  padding: 10px 20px;
 }
 
-/* Product Options */
+.branding .brand-logo {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+.product-title {
+  color: #333; /* Replace with actual color based on the design */
+  font-size: 2rem;
+}
+
+/* Product Options Styles */
 .product-options {
-  /* Styles for the product options */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Summary */
-.summary {
-  /* Styles for the summary section */
+.option {
+  border: 1px solid #ddd; /* Replace with actual color based on the design */
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-/* Payment Information */
-.payment-info {
-  /* Styles for the payment information section */
+.buy-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Footer */
-.footer {
-  /* Styles for the footer */
+.price-info {
+  text-align: right;
+}
+
+.save {
+  color: green; /* Replace with actual color based on the design */
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.select-btn {
+  background-color: #84c225; /* Replace with actual color based on the design */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.stock-info {
+  text-align: right;
+  color: #999; /* Replace with actual color based on the design */
+  margin-top: 5px;
 }
