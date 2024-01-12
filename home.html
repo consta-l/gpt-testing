@@ -32,14 +32,54 @@
     </section>
     
     <section class="summary">
-      <!-- Selected package summary will go here -->
+      <div class="selected-package">
+        <h2>Selected Package:</h2>
+        <p class="package-name">1 Month Test Plan</p>
+        <p class="package-price">$53.98</p>
+      </div>
+      <div class="order-summary">
+        <h2>Order Summary:</h2>
+        <div class="summary-item">
+          <span class="item">Package Price:</span>
+          <span class="price">$49.03</span>
+        </div>
+        <div class="summary-item">
+          <span class="item">Shipping Price:</span>
+          <span class="price">$0.00</span>
+        </div>
+        <div class="total">
+          <span class="item">Your Total:</span>
+          <span class="price">$58.97</span>
+        </div>
+      </div>
     </section>
+    
     <section class="payment-info">
-      <!-- Payment information fields will go here -->
+      <form action="#" method="post">
+        <div class="card-info">
+          <label for="cardType">Card Type:</label>
+          <select id="cardType" name="cardType">
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <!-- Other options -->
+          </select>
+    
+          <label for="cardNumber">Credit Card #:</label>
+          <input type="text" id="cardNumber" name="cardNumber" pattern="\d*" minlength="16" maxlength="16" required>
+    
+          <!-- Additional fields for expiration date, security code -->
+        </div>
+    
+        <!-- Payment security and confirmation buttons -->
+      </form>
     </section>
+    
     <footer class="footer">
-      <!-- Shipping information with logo will go here -->
-    </footer>
+      <div class="shipping-info">
+        <img src="usps-logo.png" alt="USPS Logo" class="shipping-logo">
+        <p>Order delivery via United States Postal Service</p>
+      </div>
+    </footer>    
   </div>
 </body>
 </html>

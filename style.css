@@ -75,3 +75,63 @@ body, html {
   color: #999; /* Replace with actual color based on the design */
   margin-top: 5px;
 }
+/* Summary Styles */
+.summary {
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8; /* Replace with actual color based on the design */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.selected-package, .order-summary {
+  margin-bottom: 20px;
+}
+
+.summary h2 {
+  color: #333; /* Replace with actual color based on the design */
+  margin-bottom: 10px;
+}
+
+.package-name, .package-price, .price {
+  font-weight: bold;
+}
+
+/* Payment Information Styles */
+.payment-info {
+  background: #eaeaea; /* Replace with actual color based on the design */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.payment-info form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info label, .card-info select, .card-info input {
+  margin-bottom: 10px;
+}
+
+.card-info input, .card-info select {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Add styles for buttons and other form elements */
+/* Footer Styles */
+.footer {
+  background: #f2f2f2; /* Replace with actual color based on the design */
+  padding: 20px;
+  text-align: center;
+}
+
+.shipping-info {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.shipping-logo {
+  max-width: 150px; /* Adjust as needed */
+  margin-bottom: 10px;
+}
