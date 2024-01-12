@@ -255,7 +255,6 @@ body, html {
 }
 
 /* Responsive Enhancements */
-@media only screen and (max
 @media only screen and (max-width: 768px) {
   /* Adjust layout for mobile devices */
   .header,
