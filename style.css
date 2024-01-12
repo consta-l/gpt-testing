@@ -1,0 +1,36 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  /* Styles for the header */
+}
+
+/* Product Options */
+.product-options {
+  /* Styles for the product options */
+}
+
+/* Summary */
+.summary {
+  /* Styles for the summary section */
+}
+
+/* Payment Information */
+.payment-info {
+  /* Styles for the payment information section */
+}
+
+/* Footer */
+.footer {
+  /* Styles for the footer */
+}
